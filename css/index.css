@@ -1,0 +1,429 @@
+/* HEADER */
+header{
+    background-color: #363D41;
+    color: white;
+    padding: 12px 0px;
+    font-size: 1rem;
+}
+.header-left i {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.header-left i:hover{
+    color: #7F67F8;
+}
+
+/* NAVIGATION */
+nav{
+    padding: 20px 0px;
+}
+.navbar-light .navbar-brand {
+    color: #868C94;
+    letter-spacing: 1px;
+    font-size: 1.8em;
+    font-weight: 400;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #868C94;
+}
+.navbar-brand span{
+    color: #7F67F8;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #363D41;
+    font-size: .9em;
+    font-weight: 500;
+}
+.navbar-nav--menu .nav-item{
+    margin-left: 20px;
+}
+.navbar-nav--menu .nav-item:hover>.nav-link{
+    color: #7F67F8;
+}
+.navbar-nav--menu .active .nav-link{
+    color: #7F67F8 !important;
+}
+
+/* CAROUSEL */
+.carousel-item__img{
+    width: 100%;
+}
+.carousel-caption--config{
+    bottom: 30%;
+}
+.carousel-caption--config h1{
+    font-weight: normal;
+    font-size: 3.3em;
+    letter-spacing: 4px;
+}
+.carousel-caption--config button{
+    border-radius: 0%;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    padding: 10px 30px;
+    transition: all .5s;
+}
+.carousel-caption--config button:hover{
+    background-color: #7F67F8;
+    border-color: #7F67F8;
+}
+.carousel-indicators--config{
+    margin-bottom: 35px;
+}
+.carousel-indicators--config li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: #7F67F8;
+}
+.carousel-indicators--config .active{
+    background-color: white;
+}
+
+/* BUSINESS ISSUE */
+.business-section{
+    padding: 5rem 15px;
+}
+.business-title {
+    margin-bottom: 5rem;
+}
+.business-title h1{
+    font-weight: normal;
+    font-size: 3.5em;
+}
+.business-line{
+    width: 70%;
+    height: 1px;
+    background-color: #CBCBCB;
+}
+.business-item--border{
+    border-right: solid 1px #CBCBCB;
+}
+.business-item{
+    padding: 0 30px;
+}
+.business-item i{
+    color: #F97C69;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.business-item h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.business-item p{
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #868C94;
+    margin-bottom: 0;
+}
+
+/* CONTACT */
+.contact-section{
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem 15px;
+}
+.contact-left h2{
+    font-size: 2.7em;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.contact-right button{
+    border-radius: 0%;
+    background-color: #7F67F8;
+    color: white;
+    padding: 10px 30px;
+    font-size: 1em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    transition: all 0.5s;
+}
+.contact-right button:hover{
+    background-color: #f97c69;
+    color: #fff;
+}
+
+/* RESULTS */
+.results-section{
+    padding: 5rem 15px;
+}
+.results-title h2{
+    width: 80%;
+    font-size: 2.7em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.results-title p{
+    font-size: 1em;
+    color: #868C94;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5rem;
+}
+.results-item span{
+    display: block;
+    color: #F97C69;
+    font-size: 3.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.results-item h3{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.results-item p{
+    color: #868C94;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+/* SERVICES */
+.services-section{
+    padding: 5rem 15px;
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.services-title h1{
+    font-weight: normal;
+    font-size: 3.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+.services-title p{
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+.services-item{
+    padding: 30px 30px;
+}
+.services-item-type-0{
+    background-color: #F97C69;
+    color: white;
+}
+.services-item-type-0 i{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.services-item-type-0 h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.services-item-type-0 p{
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.services-item-type-1{
+    background-color: white;
+    color: black;
+}
+.services-item-type-1 i{
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #F97C69;
+}
+.services-item-type-1 h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.services-item-type-1 p{
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/* OPINIONS */
+.opinions-section{
+    padding: 5rem 15px;
+}
+.opinions-title h1{
+    font-weight: normal;
+    font-size: 3.5em;
+    margin-bottom: 20px;
+    color: black;
+}
+.opinions-title p{
+    font-size: 1em;
+    font-weight: 400;
+    color: #868C94;
+    margin-bottom: 5rem;
+}
+.opinions-content .opinions-item img{
+    width: 100px;
+    height: 100px;
+    border: solid 5px #7F67F8;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.opinions-item h1{
+    color: black;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.opinions-item p{
+    color: #868C94;
+    font-size: .9em;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+.opinions-section .owl-theme .owl-nav{
+    visibility: hidden;
+}
+.opinions-section .owl-theme .owl-dots .owl-dot span{
+    width: 12px;
+    height: 12px;
+    background-color: #FCBDB4;
+}
+.opinions-section .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #F97C69;
+}
+
+/* FOOTER */
+footer{
+    background-color: #0B0C11;
+    padding: 3rem 0 0 0;
+}
+footer h2{
+    color: #F97C69;
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+.footer-subscribe{
+    padding-right: 50px;
+}
+.footer-subscribe p{
+    color: #CBCBCB;
+    font-size: 1em;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+.footer-subscribe .input-group{
+    border: solid 1px white;
+    border-radius: 0%;
+    background-color: transparent;
+}
+.footer-subscribe input{
+    border: none;
+    padding: 15px 15px;
+    background-color: transparent;
+    letter-spacing: 2px;
+}
+.footer-subscribe button{
+    border: none;
+    color: white;
+    background-color: #7F67F8;
+    padding: 15px 20px;
+}
+.footer-subscribe button:hover{
+    background-color: white;
+    color: #7F67F8;
+}
+.footer-our-links span{
+    display: block;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.footer-contact-us p{
+    display: flex;
+}
+.footer-contact-us i{
+    color: #F97C69;
+    font-size: 1em;
+    margin-right: 20px;
+    padding-top: 5px;
+}
+.footer-contact-us span{
+    display: inline-block;
+    color: #CBCBCB;
+    font-size: 1em;
+}
+.copyright{
+    margin-top: 5rem;
+    background-color: #252525;
+}
+.copyright span{
+    text-decoration: underline;
+}
+
+/* BACK TO TOP */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+/* MEDIA QUERY */
+@media screen and (min-width:768px) and (max-width:991px){
+    .carousel-caption--config h1{
+        font-size: 3em;
+    }
+    .carousel-caption--config{
+        bottom: 25%;
+    }
+}
+@media screen and (max-width: 768px){
+    .carousel-caption--config h1{
+        font-size: 2.2em;
+    }
+    .carousel-caption--config{
+        bottom: 20%;
+    }
+    .business-item--border{
+        border: none;
+        margin-bottom: 20px;
+    }
+    .contact-left h2{
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .footer-subscribe .input-group{
+        margin-bottom: 50px;
+    }
+    .copyright{
+        margin-top: 2rem;
+        background-color: #252525;
+    }
+}
+@media screen and (max-width:576px){
+    .carousel-caption--config h1{
+        font-size: 1.5em;
+    }
+    .carousel-caption--config{
+        bottom: 17%;
+    }
+    .carousel-indicators--config li{
+        width: 12px;
+        height: 12px;
+    }
+    .contact-left h2{
+        font-size: 1.5em;
+    }
+}
